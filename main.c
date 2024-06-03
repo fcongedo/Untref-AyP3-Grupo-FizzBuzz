@@ -8,7 +8,10 @@
 #include "config.h"
 
 void mostrar_menu() {
-    imprimir_titulo("Sistema de Gestión de Estudiantes");
+    imprimir_titulo("Bienvenido al Sistema de Gestión de Estudiantes");
+
+    printf("Por favor, seleccione una opción:\n\n");
+    
     printf("1. Alta Estudiante\n");
     printf("2. Modificar Estudiante\n");
     printf("3. Eliminar Estudiante\n");
@@ -21,12 +24,13 @@ void mostrar_menu() {
     printf("10. Listar Materias\n");
     printf("11. Anotar Estudiante en Materia\n");
     printf("12. Rendir Materia\n");
-    printf("13. Estadísticas\n");
+    printf("13. Ver Estadísticas\n");
     printf("14. Generar Datos Aleatorios\n");
     printf("15. Guardar Datos\n");
     printf("16. Cargar Datos\n");
-    printf("17. Salir\n");
-    printf("Seleccione una opción: ");
+    printf("17. Salir\n\n");
+
+    printf("Opción: ");
 }
 
 int main() {
